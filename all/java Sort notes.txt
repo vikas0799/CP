@@ -1,0 +1,28 @@
+for (String firstname: map.keySet())
+{     
+String lastname=map.get(firstname);   
+System.out.println(firstname +" "+ lastname);   
+}   
+.................
+while(T-->0)
+.......................
+for(int i=0;i<n;i++)
+        {  
+              if (mp.containsKey(a[i]))
+                mp.put(a[i], mp.get(a[i])+1);
+              else  
+                mp.put(a[i],1);
+        }
+        System.out.print(mp);
+............
+HashMap<Integer,Integer>hm = new HashMap<>();
+........................................................
+HashSer<Integer>hs=new HashSet<>();
+Iterator<Integer> i=hs.iterator();  
+           int key=0;
+           while( i.hasNext())  
+           {  
+                key=2+i.next();
+               if(hs.contains(key))
+               count++;
+           }  
